@@ -7,24 +7,31 @@ For this assignment, you will submit a high-level outline of your project. This 
 ## Submission Instructions
 
 ### Overview
-The concept is very simple. I'll be building a tic-tac-toe style game, but with a few enhancements to make the experience novel and engaging. The idea came to when my daughter wanted to play game after game after game after game of tic-tac-toe. We would always run out of space on paper, and as the adult, I was unengaged in the game after repeatedly playing. 
+I'll be building a tic-tac-toe style game, but with a few enhancements to make the experience novel and engaging, as well accessible to as many people as possible.
 
-I want the game to be available to everyone - which isn't as simple as just hosting the game on a website. In this day and age we typically assume that everyone has access to reliable internet. However, there is a large rual population for whom internet is prohibitvey expensive. Furthermore, the same percentage of people in the US only have a phone with which to access the internet. Along with a dependcy on phones for internet comes an increased likelihood of having a lower-end device with limited performance and storage capabilities. I recall when my partner and I first started our parenting adventure, our phones were adequate, but the devices scarcely had storage enough to hold the apps we found useful - let alone hold any extra games to play with our little one. 
+The primary design consideration for this project is "offline-first". A shocking number of families, particularly in rural areas, don't have reliable internet connectivity. In addition to this obstacle, many families only means of connecting to the internet is via their mobile phone. And in many cases their phone is a budget model that doesn't have a lot in the way of memory, which places serious restrictions on one's ability to keep non-essential applications on their phone.
 
-So the app needs to be available offline, fully responsive, as well as have a small enough file size that it won't have to be a burden on the owner's limited memory availbe to their device.
+The struggle of any parent of any young child is keeping their kid entertained. A classic go-to game for families with young children is tic-tac-toe. The day to day life of parent is difficult enough even without having to fumble with endless scraps of paper and keeping track of the oft-disappearing ink pen. Peck-Scratch-Go is a simple solution that will make otherwise painful moments of boredom more simple and enjoyable for everybody involved.
 
 ### Features
-User login: The user should be able to have their stat's saved so they can unlock bonus themes.
-Game play: In addition to the traditional tic-tac-toe style game play, the user will play with a variety of tokens which represent their "team". This will break up the monoteny of the classic game by forcing the user to evaluate and interperate the board. And upon a winning combination, the winning team will get a neat, appropriatly themed celebration.
-Bonus themes: Upon playing "x" amount of games, the user wil have access to additional themes, and eventually be able to pick their own game pieces.
-Service worker: The game will be availble to download directly to the users device, allowing an engaging experience regardless of internet connectivity, and without the need to sapp their data.
+User login: The user should be able to have their stats saved so they can unlock bonus themes.
+
+Game play: In addition to the traditional tic-tac-toe style game play, the user will play with a variety of tokens which represent their "team". This will break up the monotony of the classic game by forcing the user to evaluate and interpret the board. And upon a winning combination, the winning team will get a neat, appropriately themed celebration.
+
+Bonus themes: Upon playing "x" amount of games, the user will have access to additional themes, and eventually be able to pick their own game pieces.
+
+Service worker: The game will be available to download directly to the users device, allowing an engaging experience regardless of internet connectivity, and without the need to sapp their data.
+
 
 ### Technologies
-Javascript
-CSS grid
-AngularJS
-IndexedDB
+Angular
+Material
+Firebase
+Service workers
 
 ### What I'll Have to Learn
-AngularJS
-How to impliment service workers
+TypeScript
+Angular
+Material
+Firebase
+Service workers
